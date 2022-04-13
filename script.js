@@ -13,7 +13,9 @@ function positions(firstPlace, secondPlace, lastPlace){
     }else if(chegada.indexOf("Daniel") == 2){
             mudarPosicao(chegada, 2, 1)
             console.log("1º - Colocado: " + chegada[0] + ", 2º - Colocado: " + chegada[1] + ", 3º - Colocado: " + chegada[2])
-        }
+    }else{
+            console.log("1º - Colocado: " + chegada[0] + ", 2º - Colocado: " + chegada[1] + ", 3º - Colocado: " + chegada[2])
+    }
 }
 
-positions("Rafael", "Manoel", "Daniel")
+positions("Manoel", "Rafael", "Daniel")
